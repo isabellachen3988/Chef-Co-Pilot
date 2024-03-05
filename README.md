@@ -88,5 +88,3 @@ python -m pytest -s
 ## More
 
 To install the nodejs follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04#Installing%20Using%20a%20PPA)
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
