@@ -1,8 +1,7 @@
 # Chef Co-Pilot
 
-Group 3 - Quaranteam
-
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+This project is initialized with [Ant Design Pro](https://pro.ant.design).
+This README describes the quickstart guide.
 
 ## Backend
 First make sure you have docker running on your computer. Then run the following commands:
@@ -17,7 +16,6 @@ If successful, a Flask backend is now running on your localhost:5000. Please mak
 Flask backend running before starting your frontend code.
 
 After quitting the container, make sure you stop it by running `docker stop` followed by its container ID.
-
 
 ## Frontend
 ### Environment Prepare
@@ -46,11 +44,11 @@ npm start
 
 ### Add the route
 
-so the route register will be in the file `/config/config.js` add the json in the route attribute
+The route register will be in the file `/config/config.js` - add the json in the route attribute
 
 ### Add new page
 
-all the page will be in the `/src/page` folder, you can copy the existing folder to make as a template
+All the pages will be in the `/src/page` folder, you can copy the existing folder to make as a template
 
 ### Build project
 
@@ -64,7 +62,7 @@ npm run build
 npm run lint
 ```
 
-You can also use script to auto fix some lint error:
+Script to fix lint issues
 
 ```bash
 npm run lint:fix
@@ -78,9 +76,9 @@ npm run test:jest
 
 ### Test python backend API
 
-since the backend and frontend are in the same folder the pytest will scan entire folder
+Since the backend and frontend are in the same folder the pytest will scan entire folder
 
-so I move the test in the flask-api folder to reduce the overhead. Use following command to run the test:
+Test in the flask-api folder to reduces the overhead. Use following command to run the test:
 
 ```
 cd flask-api
